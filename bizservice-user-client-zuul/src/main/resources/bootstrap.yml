@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: service-user-client-zuul
+server:
+  port: 9101
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: service-user-client-ribbon
+    api-b:
+      path: /api-b/**
+      serviceId: service-user-client-feign

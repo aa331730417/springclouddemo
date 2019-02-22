@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: service-user-client-feign-hystrix
+server:
+  port: 9002
+feign:
+  hystrix:
+    enabled: true

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: service-config-client
+  #配置中心高可用配置
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        #指向配置中心的 微服务名，这样就实现了高可用
+        service-id: service-config-server
+      #此配置为了方便 开发dev、测试test、线上pro环境的配置文件的切换
+      profile: dev
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://server1:8761/eureka/

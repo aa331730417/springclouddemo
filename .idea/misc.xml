@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/commonservice-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/commonservice-client/pom.xml" />
+        <option value="$PROJECT_DIR$/bizservice-user/pom.xml" />
+        <option value="$PROJECT_DIR$/bizservice-user-client-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/bizservice-user-client-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/bizservice-config/pom.xml" />
+        <option value="$PROJECT_DIR$/bizservice-user-client-ribbon-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/bizservice-user-client-feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/bizservice-user-client-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/bizservice-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/commonservice-eureka-high/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

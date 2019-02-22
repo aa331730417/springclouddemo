@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bizservice-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizservice-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizservice-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizservice-user-client-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizservice-user-client-feign-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizservice-user-client-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizservice-user-client-ribbon-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizservice-user-client-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonservice-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonservice-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonservice-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonservice-eureka-high" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonservice-eureka-hign" charset="UTF-8" />
+  </component>
+</project>

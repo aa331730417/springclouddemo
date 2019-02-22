@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bizservice-config" />
+        <module name="bizservice-config-client" />
+        <module name="bizservice-user" />
+        <module name="bizservice-user-client-feign" />
+        <module name="bizservice-user-client-feign-hystrix" />
+        <module name="bizservice-user-client-ribbon" />
+        <module name="bizservice-user-client-ribbon-hystrix" />
+        <module name="bizservice-user-client-zuul" />
+        <module name="commonservice-client" />
+        <module name="commonservice-eureka" />
+        <module name="commonservice-eureka-high" />
+        <module name="springclouddemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commonservice-config" target="1.8" />
+      <module name="commonservice-eureka-hign" target="1.8" />
+      <module name="springcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
